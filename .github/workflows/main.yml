@@ -1,0 +1,8 @@
+name: My First Work
+on: push
+jobs: 
+   First:
+      runs-on: ubuntu-latest
+      steps:
+            -  name: print
+            -  run: echo This Work!
